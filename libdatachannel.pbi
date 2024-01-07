@@ -177,7 +177,7 @@ EndStructure
 
 Structure rtcSsrcForTypeInit AlignC
   ssrc.l           
-  *name.p-utf8                     ;p-utf8;    // optional
+  *name                     ;p-utf8;    // optional
   *msid                     ;p-utf8;    // optional
   *trackId                  ;p-utf8;    // optional, track ID used in MSID
 EndStructure 
